@@ -15,3 +15,9 @@ p1.name="제이슨"
 #3)매소드 호출
 p1.print()
 p2.print()
+
+#런타임에 변수 추가
+Person.title="new title"
+print(p1.title)
+print(p2.title)
+print(Person.title)
