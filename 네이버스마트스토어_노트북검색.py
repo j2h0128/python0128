@@ -35,7 +35,7 @@ while True:
     last_height = new_height
 
 soup = BeautifulSoup(driver.page_source, 'html.parser')
-goods_list = soup.select('li.basicList_item__0T9JD')
+goods_list = soup.select('div.basicList_item__0T9JD')
 
 try: 
     for v in goods_list:
