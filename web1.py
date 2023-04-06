@@ -16,10 +16,10 @@ soup=BeautifulSoup(page, "html.parser")
 #print(soup.find("p"))
 
 #검색조건: <P class='outer-text'>
-print(soup.find_all("P", class_="outer-text"))
+print(soup.find_all("p", class_="outer-text"))
 
 #<p> attrs=>attributes
-print(soup.find_all("P", attrs={"class":"outer-text"}))
+print(soup.find_all("p", attrs={"class":"outer-text"}))
 
 #id=first 검색
 print(soup.find_all(id="first"))
